@@ -1,0 +1,22 @@
+<div class="container">
+    <ul class="list" *ngFor="let user of HomeUsers">
+        <li (click)="myMethod(user.id)">{{user.name}}</li>
+    </ul>
+
+
+    <!-- <table class="table table-border">
+        <tr>
+            <th class="text-center">ID</th>
+            <th class="text-center">Name</th>
+            <th class="text-center">Address</th>
+            <th class="text-center">Gender</th>
+        </tr>
+        <tr *ngFor="let user of users" class="text-center">
+            <td>{{user.userid}}</td>
+            <td>{{user.name}}</td>
+            <td>{{user.address}}</td>
+            <td>{{user.gender}}</td>
+        </tr>
+    </table> -->
+
+</div>
